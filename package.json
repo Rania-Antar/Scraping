@@ -1,0 +1,49 @@
+{
+  "name": "scrapingfbgroup",
+  "version": "1.0.0",
+  "description": "my Pi web Project, collect date from facebook group \"Lost and Found Tunisia\" and store it in mongoDB  ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rania-Antar/Scraping.git"
+  },
+  "keywords": [
+    "facebook",
+    "group",
+    "posts",
+    "scraper",
+    "pi",
+    "web",
+    "4",
+    "twin",
+    "web",
+    "scraping",
+    "mongodb",
+    "nodejs",
+    "expressjs",
+    "fbgraph"
+  ],
+  "author": "Rania Antar email:rania.antar@esprit.tn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rania-Antar/Scraping/issues"
+  },
+  "homepage": "https://github.com/Rania-Antar/Scraping#readme",
+  "dependencies": {
+    "es6-promise": "^2.0.1",
+    "express": "~4.16.1",
+    "fbgraph": "^0.3.0",
+    "lodash": "^3.6.0",
+    "moment": "^2.10.2",
+    "mongodb": "~3.0.5",
+    "mongojs": "~3.1.0",
+    "node-static": "^0.7.6"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  }
+}
